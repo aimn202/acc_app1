@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول - المحاسب الشخصي</title>
+    <!-- خط IBM Plex Arabic -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- ملفات CSS و الأيقونة -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>تسجيل الدخول</h1>
+        <form>
+            <label>اسم المستخدم:</label>
+            <input type="text" id="username" placeholder="أدخل اسم المستخدم" required>
+            <label>كلمة المرور:</label>
+            <input type="password" id="password" placeholder="أدخل كلمة المرور" required>
+            <button type="button" onclick="login()">تسجيل الدخول</button>
+        </form>
+    </div>
+    <!-- ملف JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
